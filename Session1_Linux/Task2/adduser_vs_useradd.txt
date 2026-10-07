@@ -1,0 +1,11 @@
+=== Task 2: adduser vs useradd ===
+
+1. useradd:
+   - Low-level binary system command.
+   - Does not prompt interactively for password/details.
+   - Does not create home directory unless '-m' flag is used.
+
+2. adduser:
+   - High-level interactive script wrapper (Ubuntu/Debian).
+   - Prompts interactively for password and user details.
+   - Automatically creates home directory and default setup.
